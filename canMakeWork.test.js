@@ -11,5 +11,8 @@ describe("abc problem spec",() => {
         it("BOOK should not be a word",() => {
             expect(canMakeAWord("BOOK")).toBe(false);
         });
+        it("BARK should be a word",() => {
+            expect(canMakeAWord("BARK")).toBe(true);
+        });
     });
 })
