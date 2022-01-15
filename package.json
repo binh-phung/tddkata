@@ -1,0 +1,14 @@
+{
+  "name": "tdd-kata",
+  "version": "1.0.0",
+  "description": "used to excersise tdd methodology",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ."
+  },
+  "author": "binh phung",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
