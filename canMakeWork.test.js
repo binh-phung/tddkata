@@ -8,5 +8,8 @@ describe("abc problem spec",() => {
         it("word A is a word",() => {
             expect(canMakeAWord("A")).toBe(true);
         });
+        it("BOOK should not be a word",() => {
+            expect(canMakeAWord("BOOK")).toBe(false);
+        });
     });
 })
